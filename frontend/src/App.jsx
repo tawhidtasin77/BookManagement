@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import BookForm from "./components/BookForm.jsx";
 import BookCard from "./components/bookCard.jsx";
 
-const API_URL = "http://localhost:3000/api/books";
+const API_URL = "https://book-management-lemon-ten.vercel.app/api/books";
 
 function App() {
   const [books, setBooks] = useState([]);
