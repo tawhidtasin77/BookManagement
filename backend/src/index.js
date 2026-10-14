@@ -10,7 +10,7 @@ connectDB()
     console.log("Database connected successfully");
   })
   .catch((error) => {
-    console.error("Database connection failed:", error);
+    console.log("Database connection error:", error);
   });
 
 export default app;
